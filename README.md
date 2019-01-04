@@ -28,7 +28,7 @@ sudo make install
 - Install repository
 ```bash
 cd ~/craftbeerpi3/modules/plugins/
-git://github.com/Lai1337/cbpi-homeeasy_nexa433
+git clone git://github.com/Lai1337/cbpi-homeeasy_nexa433
 ```
 or put the file `__init__.py` in a new folder in `craftbeerpi3/modules/plugins/`
 <br>
