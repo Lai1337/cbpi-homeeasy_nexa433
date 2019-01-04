@@ -36,4 +36,7 @@ or put the file `__init__.py` in a new folder in `craftbeerpi3/modules/plugins/`
 `actor-on.sh` and `actor-off.sh` (see examples in repository)
 
 ## USAGE
-
+- Connect Rf transmitter has 3 pins: VCC, GND och DATA
+Default is to connect DATA to GPIO 17 (Pin 0 i WiringPi)
+![alt text](https://github.com/Lai1337/cbpi-homeeasy_nexa433/blob/master/Wiring.png)
+- Pair power socket EXAMPLE `piHomeEasy 0 56123 1 on`
