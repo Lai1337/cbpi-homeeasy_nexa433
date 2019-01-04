@@ -1,3 +1,4 @@
+#!/bin/bash
 # EXAMPLE FILE 
 # Put the file in /home/pi
 #
@@ -28,7 +29,7 @@
 #
 #
 #
-#!/bin/bash
+
 
 sudo piHomeEasy 0 56123 1 on
 
