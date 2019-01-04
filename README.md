@@ -4,6 +4,7 @@ Plugin for CraftBeerPi for HomeEasy and Nexa 433 mhz self-learning power sockets
 ## HARDWARE PREREQUISITES:
 - Self-learning Nexa/HomeEasy 433 mhz power socket (tested with Nexa PE-3 och Nexa MYCR-3)
 - Rf 433 mhz transmitter, e.g. FS1000A (2-3 USD on Ebay)
+No need for the receiver. The power socket is self-learning.
 
 ## SOFTWARE INSTALLATION:
 ### 1. Install piHomeEasy (https://github.com/nbogojevic/piHomeEasy)
