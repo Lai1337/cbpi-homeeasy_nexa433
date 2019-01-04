@@ -6,7 +6,7 @@ from modules.core.hardware import ActorBase
 from modules.core.props import Property
 
 @cbpi.actor
-class shellscript(ActorBase):
+class Nexa433(ActorBase):
     
     plug = Property.Select(label="Plug", options=[1,2,3,4,5])
     
@@ -16,13 +16,13 @@ class shellscript(ActorBase):
             command = "/home/pi/actor-on.sh " + str(self.plug)
             subprocess.call(command, shell=True)
         except Exception as e:
-            self.api.notify("Error Shellscript plugin", type="danger", timeout=None)
-            self.api.app.logger.error("Error Shellscript plugin")
+            self.api.notify("Error Nexa433 plugin", type="danger", timeout=None)
+            self.api.app.logger.error("Error Nexa433 plugin")
 
     def off(self):
         try:
             command = "/home/pi/actor-off.sh " + str(self.plug)
             subprocess.call(command, shell=True)
         except Exception as e:
-            self.api.notify("Error Shellscript plugin", type="danger", timeout=None)
-            self.api.app.logger.error("Error Shellscript plugin")
+            self.api.notify("Error Nexa 433 plugin", type="danger", timeout=None)
+            self.api.app.logger.error("Error Nexa433 plugin")
