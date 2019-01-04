@@ -21,6 +21,12 @@ sudo make install
 ```
 
 ### 2. Install the plugin
-- Put the file `__init__.py` in a new folder in ``craftbeerpi3/modules/plugins/``
+- Install repository
+```bash
+cd ~/craftbeerpi3/modules/plugins/
+git://github.com/Lai1337/cbpi-homeeasy_nexa433
+```
+or put the file `__init__.py` in a new folder in `craftbeerpi3/modules/plugins/`
+<br>
 - Create 2 files in `/home/pi`: 
 `actor-on.sh` and `actor-off.sh` (see examples in repository)
