@@ -12,7 +12,7 @@ git clone git://git.drogon.net/wiringPi
 cd wiringPi
 sudo ./build
 ```
-#### Install nbogojevic/piHomeEasy
+#### Install piHomeEasy
 ```bash
 cd ~
 git clone git://github.com/nbogojevic/piHomeEasy
