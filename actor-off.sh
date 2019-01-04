@@ -1,3 +1,4 @@
+#!/bin/bash
 # EXAMPLE FILE 
 # Put the file in /home/pi
 #
@@ -25,11 +26,6 @@
 # <on|off>      Command to send:
 #                 on  to turn on
 #                 off to turn off
-#
-#
-#
-#!/bin/bash
-
 sudo piHomeEasy 0 56123 1 off
 
 exit 0
