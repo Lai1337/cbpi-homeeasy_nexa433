@@ -26,11 +26,6 @@
 # <on|off>      Command to send:
 #                 on  to turn on
 #                 off to turn off
-#
-#
-#
-
-
 sudo piHomeEasy 0 56123 1 on
 
 exit 0
