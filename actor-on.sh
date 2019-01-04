@@ -1,4 +1,6 @@
-# EXAMPLE FILE
+# EXAMPLE FILE 
+# Put the file in /home/pi
+#
 # Usage: piHomeEasy <pin number> <emitter id> <receiver id> <on|off>
 #
 # <pin number>  wiringPi pin number as follows:
