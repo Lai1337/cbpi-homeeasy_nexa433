@@ -1,4 +1,3 @@
-# cbpi-homeeasy_nexa433
 Plugin for CraftBeerPi for HomeEasy and Nexa 433 mhz self-learning power sockets. Feel free to improve the code. I know nothing about coding. I am a copy-paste monkey.
 <br>
 ## HARDWARE PREREQUISITES:
