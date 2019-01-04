@@ -1,6 +1,10 @@
 # cbpi-homeeasy_nexa433
-Plugin for CraftBeerPi for HomeEasy and Nexa 433 mhz self-learning power sockets. Interim solution to enable the use of Nexa/Homeeasy 433 mhz sockets. Tested with Nexa PE-3 och Nexa MYCR-3.
+Plugin for CraftBeerPi for HomeEasy and Nexa 433 mhz self-learning power sockets. Interim solution to enable the use of Nexa/Homeeasy 433 mhz sockets. 
 <br>
+## HARDWARE PREREQUISITES:
+- Self learning Nexa/HomeEasy 433 mhz power socket (tested with Nexa PE-3 och Nexa MYCR-3)
+- Rf 433 mhz transmitter, e.g. FS1000A (2-3 USD on Ebay)
+
 ## SOFTWARE INSTALLATION:
 ### 1. Install piHomeEasy (https://github.com/nbogojevic/piHomeEasy)
 
@@ -30,3 +34,6 @@ or put the file `__init__.py` in a new folder in `craftbeerpi3/modules/plugins/`
 <br>
 - Create 2 files in `/home/pi`: 
 `actor-on.sh` and `actor-off.sh` (see examples in repository)
+
+## USAGE
+
