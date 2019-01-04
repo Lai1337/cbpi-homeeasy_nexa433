@@ -2,7 +2,7 @@
 Plugin for CraftBeerPi for HomeEasy and Nexa 433 mhz self-learning power sockets. Interim solution to enable the use of Nexa/Homeeasy 433 mhz sockets (https://github.com/nbogojevic/piHomeEasy)
 <br>
 ## SOFTWARE INSTALLATION:
-### 1. Install nbogojevic/piHomeEasy (https://github.com/nbogojevic/piHomeEasy)
+### 1. Install piHomeEasy (https://github.com/nbogojevic/piHomeEasy)
 
 #### Install WiringPi
 ```bash
