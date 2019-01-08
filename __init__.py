@@ -21,7 +21,7 @@ class Nexa433(ActorBase):
 
     def off(self):
         try:
-            command = "actor-off.sh " + str(self.plug)
+            command = "/home/pi/craftbeerpi3/modules/plugins/Nexa433/actor-off.sh " + str(self.plug)
             subprocess.call(command, shell=True)
         except Exception as e:
             self.api.notify("Error Nexa 433 plugin", type="danger", timeout=None)
