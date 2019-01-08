@@ -25,15 +25,15 @@ sudo make install
 ```
 
 ### 2. Install the plugin
+- Install on the Craftbeerpi3 plugin/addon page in the GUI/web-interface
+- Edit and configure `actor-on.sh` and `actor-off.sh` [see examples in repository](actor-on.sh) in the plugin folder ( `/pi/home/craftbeerpi3/modules/plugins/cbpi-homeeasy_nexa433`).
+
+ALTERNATIVE (manual installation)
 - Install repository
 ```bash
 cd ~/craftbeerpi3/modules/plugins/
 git clone git://github.com/Lai1337/cbpi-homeeasy_nexa433
 ```
-or put the file `__init__.py` in a new folder in `craftbeerpi3/modules/plugins/`
-<br>
-- Create 2 files in `/home/pi`: 
-`actor-on.sh` and `actor-off.sh` [see examples in repository](actor-on.sh).
 
 ## HARDWARE INSTALLATIONS
 - The Rf transmitter has 3 pins: VCC, GND och DATA
