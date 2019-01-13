@@ -26,6 +26,8 @@
 # <on|off>      Command to send:
 #                 on  to turn on
 #                 off to turn off
+#
+# Put this file in /pi/home
 sudo piHomeEasy 0 56123 1 on
 
 exit 0
