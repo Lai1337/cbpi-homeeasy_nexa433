@@ -8,7 +8,7 @@ from modules.core.props import Property
 @cbpi.actor
 class Nexa433(ActorBase):
     
-    plug = Property.Select(label="Plug", options=[1,2,3,4,5])
+    plug = Property.Text("Nexa433", True, "1")
     
     def on(self, power=100):
         try:
