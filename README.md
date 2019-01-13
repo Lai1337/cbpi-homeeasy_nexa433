@@ -26,7 +26,7 @@ sudo make install
 
 ### 2. Install the plugin
 - Install on the Craftbeerpi3 plugin/addon page in the GUI/web-interface
-- Edit and configure `actor-on.sh` and `actor-off.sh` [see examples in repository](actor-on.sh) in the plugin folder (`/pi/home/craftbeerpi3/modules/plugins/cbpi-homeeasy_nexa433`). Do not forget to change file permissions.
+- Edit and configure `actor-on.sh` and `actor-off.sh` [see examples in repository](actor-on.sh) in the home folder (`/pi/home/`). Do not forget to change file permissions.
 
 ALTERNATIVE (manual installation)
 - Install repository
